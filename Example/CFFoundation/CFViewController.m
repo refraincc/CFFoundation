@@ -7,6 +7,7 @@
 //
 
 #import "CFViewController.h"
+#import <CFFoundation/NSString+CFCategory.h>
 
 @interface CFViewController ()
 
