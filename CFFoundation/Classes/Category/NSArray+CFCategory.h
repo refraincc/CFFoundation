@@ -15,9 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSArray (CFCategory)
 
 
-/// 删除数组中重复元素 ps: id<NSCoping>
+/// 删除数组中重复元素
 - (NSArray *)cc_removeRepetitionObjects;
 
+- (NSArray *)cc_removeRepetitionObjectsWithKey:(NSString *)key;
 
 @end
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		429A26742457CFF80074BD77 /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A26732457CFF80074BD77 /* CFPerson.m */; };
+		429A268124582AE20074BD77 /* CFFruits.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A268024582AE20074BD77 /* CFFruits.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 		3C83B55DB38255390DE67FF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		429A26722457CFF80074BD77 /* CFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
 		429A26732457CFF80074BD77 /* CFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		429A267F24582AE20074BD77 /* CFFruits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFFruits.h; sourceTree = "<group>"; };
+		429A268024582AE20074BD77 /* CFFruits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFFruits.m; sourceTree = "<group>"; };
 		51F5702D0C71ED7F714EA051 /* CFFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CFFoundation.podspec; path = ../CFFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		553C783046F4884B37C82476 /* Pods-CFFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFFoundation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFFoundation_Example/Pods-CFFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CFFoundation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFFoundation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +106,8 @@
 			children = (
 				429A26722457CFF80074BD77 /* CFPerson.h */,
 				429A26732457CFF80074BD77 /* CFPerson.m */,
+				429A267F24582AE20074BD77 /* CFFruits.h */,
+				429A268024582AE20074BD77 /* CFFruits.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CFAppDelegate.m in Sources */,
+				429A268124582AE20074BD77 /* CFFruits.m in Sources */,
 				429A26742457CFF80074BD77 /* CFPerson.m in Sources */,
 				6003F5A7195388D20070C39A /* CFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

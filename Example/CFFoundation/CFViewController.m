@@ -8,6 +8,7 @@
 
 #import "CFViewController.h"
 #import "CFPerson.h"
+#import "CFFruits.h"
 
 #import <CFFoundation/NSArray+CFCategory.h>
 
@@ -36,13 +37,15 @@
     CFPerson *p3 = [[CFPerson alloc] init];
     p3.name = @"dsfs";
     
+    CFFruits *f = [[CFFruits alloc] init];
+    
     
 //    NSArray *ps = @[@"111", @"222", @"222"];
     NSArray *ps = @[p1, p1, p3];
     
 //    NSArray *newPs = [ps valueForKeyPath:@"@distinctUnionOfObjects.self"];
     
-    NSArray *newPs = [ps cc_removeRepetitionObjects];
+    NSArray *newPs = [ps cc_removeRepetitionObjectsWithKey:@"name"];
     
     NSLog(@"");
 }

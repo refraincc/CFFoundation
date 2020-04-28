@@ -15,5 +15,13 @@
     return [self valueForKeyPath:@"@distinctUnionOfObjects.self"];
 }
 
+- (NSArray *)cc_removeRepetitionObjectsWithKey:(NSString *)key{
+    
+    NSString *keyPath = [NSString stringWithFormat:@"@distinctUnionOfObjects.%@",key];
+    
+    return [self valueForKeyPath:keyPath];
+    
+}
+
 
 @end
