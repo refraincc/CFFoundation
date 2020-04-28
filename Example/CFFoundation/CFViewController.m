@@ -7,7 +7,12 @@
 //
 
 #import "CFViewController.h"
-#import <CFFoundation/NSString+CFCategory.h>
+#import "CFPerson.h"
+
+#import <CFFoundation/NSArray+CFCategory.h>
+
+
+
 
 @interface CFViewController ()
 
@@ -19,6 +24,27 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+
+        
+    CFPerson *p1 = [[CFPerson alloc] init];
+    p1.name = @"111";
+    
+    CFPerson *p2 = [[CFPerson alloc] init];
+    p2.name = @"111";
+    
+    CFPerson *p3 = [[CFPerson alloc] init];
+    p3.name = @"dsfs";
+    
+    
+//    NSArray *ps = @[@"111", @"222", @"222"];
+    NSArray *ps = @[p1, p1, p3];
+    
+//    NSArray *newPs = [ps valueForKeyPath:@"@distinctUnionOfObjects.self"];
+    
+    NSArray *newPs = [ps cc_removeRepetitionObjects];
+    
+    NSLog(@"");
 }
 
 - (void)didReceiveMemoryWarning
