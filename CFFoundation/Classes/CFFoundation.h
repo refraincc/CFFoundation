@@ -12,3 +12,5 @@
 #import "NSDate+CFCategory.h"
 #import "NSString+CFCategory.h"
 #import "NSDateFormatter+CFCategory.h"
+#import "NSArray+CFCategory.h"
+#import "NSData+CC_Core.h"
